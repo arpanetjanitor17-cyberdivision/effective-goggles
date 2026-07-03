@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260">
+  <!-- hangman6: legs (final for 5 wrongs) -->
+  <rect width="100%" height="100%" fill="#fff" />
+  <line x1="20" y1="240" x2="180" y2="240" stroke="#333" stroke-width="6"/>
+  <line x1="50" y1="240" x2="50" y2="20" stroke="#333" stroke-width="6"/>
+  <line x1="50" y1="20" x2="130" y2="20" stroke="#333" stroke-width="6"/>
+  <line x1="130" y1="20" x2="130" y2="40" stroke="#333" stroke-width="6"/>
+  <circle cx="130" cy="68" r="20" stroke="#000" stroke-width="4" fill="none"/>
+  <line x1="130" y1="88" x2="130" y2="150" stroke="#000" stroke-width="4"/>
+  <line x1="130" y1="100" x2="100" y2="120" stroke="#000" stroke-width="4"/>
+  <line x1="130" y1="100" x2="160" y2="120" stroke="#000" stroke-width="4"/>
+  <line x1="130" y1="150" x2="110" y2="195" stroke="#000" stroke-width="4"/>
+  <line x1="130" y1="150" x2="150" y2="195" stroke="#000" stroke-width="4"/>
+</svg>

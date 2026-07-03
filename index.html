@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hangman — Effective Goggles</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>Hangman — no words may contain h, t, c, b, i</h1>
+
+    <section class="game">
+      <div class="visual">
+        <img id="hangmanImg" src="/images/hangman1.svg" alt="hangman" />
+      </div>
+
+      <div class="play">
+        <div id="wordDisplay" class="word" aria-live="polite">_ _ _ _</div>
+        <div class="meta">Wrong: <span id="wrongCount">0</span> / <span id="maxWrong">5</span></div>
+        <div id="alphabet" class="alphabet" aria-label="alphabet"></div>
+        <div class="used">Used: <span id="usedLetters">—</span></div>
+        <div id="status" class="status"></div>
+
+        <div class="add-word">
+          <input id="newWord" placeholder="Add a safe word" autocomplete="off">
+          <button id="addWordBtn">Add</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wordlist">
+      <h2>Word list (safe)</h2>
+      <div id="wordList"></div>
+    </section>
+
+  </main>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
